@@ -852,34 +852,31 @@ max-width: 1280px;
 
 .tour__list_1{
   padding: 10px;
-display: none;
-grid-auto-rows: auto;
+/*display: none;*/
+visibility: hidden;
+height: 0px;
+/*grid-template: auto 1fr / auto 1fr auto;*/
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-width: 100%;
+min-width: 320px;
+max-width: 100%;
 
 }
 
 .tour__list_2{
   padding: 10px;
-display: none;
-grid-auto-rows: auto;
+/*display: none;*/
+visibility: hidden;
+height: 0px;
+/*grid-template: auto 1fr / auto 1fr auto;*/
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-width: 100%;
+min-width: 320px;
+max-width: 100%;
 
 }
-/*.visible{
-  display: grid !important;
-  grid-auto-rows: auto;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-width: 100%;
-  padding: 10px;
-}*/
 
   .booking__item {
     margin: 0px auto;

@@ -504,6 +504,7 @@ margin: 150px auto;
     overflow: hidden;
       display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* либо minmax(300px, 1fr); тоже не работает. */
+      align-items: center;
     /*grid-gap: 5px;*/
  }
  

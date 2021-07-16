@@ -146,7 +146,7 @@ position: relative;
 .sLogo__nav__icon{
   display:none;
 }
-@media (max-width:767px){
+@media (max-width:840px){
   .header {padding: 0;}
   .nav__icon{
     z-index: 5;

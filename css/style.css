@@ -556,7 +556,7 @@ height: 350px;
   background-image: linear-gradient(135deg, rgba(0,0,0,.35), rgba(0,0,0,.35)),
                     url("../img/kalea-morgan-RZ7YXW8-fdw-unsplash.jpg");
   background-size: cover;
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
   background-position: bottom;
   color: #FFFFFF;
   margin-top: 100px;
